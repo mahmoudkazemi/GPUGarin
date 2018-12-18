@@ -19,6 +19,7 @@
 #define R_ant 0.5f
 #define Prec_SAR 1
 
+
 #define mem2d(data,q,y,x)   data[((y)*(q))+(x)]
 __global__ void SARbp(cuFloatComplex* voxeleld, cuFloatComplex* colData, cuFloatComplex Ant_position);
 #endif
